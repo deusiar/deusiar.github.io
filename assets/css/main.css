@@ -37,6 +37,22 @@ ol, ul {
 	list-style: none;
 }
 
+
+
+  .image_aboutme {
+    overflow: auto; /* Ensures proper layout when floating elements */
+}
+
+.aboutme-photo {
+    float: right; /* Floats the image to the left */
+    margin-left: 25px; /* Adds space between the image and text */
+    margin-bottom: 10px; /* Adds space below the image */
+
+	height: 100px;
+	height: auto;
+}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -328,7 +344,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		/* align-items: stretch; */
 	}
 
 		.row > * {
